@@ -9,7 +9,7 @@ const formatCalendar = (e) => {
   for (const weekend of e.events) {
     t += `**${weekend.prefix} ${weekend.name}**\n`;
     let d = new Date(weekend.start).getTime() / 1000;
-    t += `Weekend date: <t:${d}:F> - <t:${d}:R>\n`;
+    t += `Weekend date: <t:${d}:D> - <t:${d}:R>\n`;
     t += `Session times have not been announced yet.\n\n`;
   }
 
