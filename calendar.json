@@ -1,0 +1,680 @@
+{
+    "types": {
+        "events": {
+            "reg": "Regular Weekend",
+            "spr": "Sprint Weekend",
+            "pst": "Pre-season Test"
+        },
+        "sessions": {
+            "fp": "Free Practice",
+            "qp": "Qualifying Practice",
+            "sr": "Sprint Race",
+            "ra": "Race"
+        }
+    },
+    "events": [
+        {
+            "name": "Bahrain Pre-season testing",
+            "year": 2023,
+            "type": "pst",
+            "prefix": ":flag_bh:",
+            "start": "2023-02-23T00:00:00Z",
+            "racetrack": {
+                "name": "Bahrain International Circuit",
+                "length": {
+                    "value": 5412,
+                    "unit": "meters"
+                },
+                "record": {
+                    "time": {
+                        "value": 91447,
+                        "unit": "milliseconds"
+                    },
+                    "year": 2005,
+                    "driver": {
+                        "name": "Pedro de la Rosa",
+                        "prefix": ":flag_es:",
+                        "team": "McLaren"
+                    }
+                }
+            },
+            "sessions": []
+        },
+        {
+            "name": "Bahrain Grand Prix",
+            "year": 2023,
+            "type": "reg",
+            "prefix": ":flag_bh:",
+            "start": "2023-03-03T00:00:00Z",
+            "racetrack": {
+                "name": "Bahrain International Circuit",
+                "length": {
+                    "value": 5412,
+                    "unit": "meters"
+                },
+                "record": {
+                    "time": {
+                        "value": 91447,
+                        "unit": "milliseconds"
+                    },
+                    "year": 2005,
+                    "driver": {
+                        "name": "Pedro de la Rosa",
+                        "prefix": ":flag_es:",
+                        "team": "McLaren"
+                    }
+                }
+            },
+            "sessions": []
+        },
+        {
+            "name": "Saudi Arabian Grand Prix",
+            "year": 2023,
+            "type": "reg",
+            "prefix": ":flag_sa:",
+            "start": "2023-03-17T00:00:00Z",
+            "racetrack": {
+                "name": "Jeddah Corniche Circuit",
+                "length": {
+                    "value": 6174,
+                    "unit": "meters"
+                },
+                "record": {
+                    "time": {
+                        "value": 90734,
+                        "unit": "milliseconds"
+                    },
+                    "year": 2021,
+                    "driver": {
+                        "name": "Lewis Hamilton",
+                        "prefix": ":flag_gb:",
+                        "team": "Mercedes"
+                    }
+                }
+            },
+            "sessions": []
+        },
+        {
+            "name": "Australian Grand Prix",
+            "year": 2023,
+            "type": "reg",
+            "prefix": ":flag_au:",
+            "start": "2023-03-31T00:00:00Z",
+            "racetrack": {
+                "name": "Albert Park Circuit",
+                "length": {
+                    "value": 5278,
+                    "unit": "meters"
+                },
+                "record": {
+                    "time": {
+                        "value": 80260,
+                        "unit": "milliseconds"
+                    },
+                    "year": 2022,
+                    "driver": {
+                        "name": "Charles Leclerc",
+                        "prefix": ":flag_mc:",
+                        "team": "Ferrari"
+                    }
+                }
+            },
+            "sessions": []
+        },
+        {
+            "name": "Chinese Grand Prix",
+            "year": 2023,
+            "type": "reg",
+            "prefix": ":flag_cn:",
+            "start": "2023-04-14T00:00:00Z",
+            "racetrack": {
+                "name": "Shanghai International Circuit",
+                "length": {
+                    "value": 5451,
+                    "unit": "meters"
+                },
+                "record": {
+                    "time": {
+                        "value": 92238,
+                        "unit": "milliseconds"
+                    },
+                    "year": 2004,
+                    "driver": {
+                        "name": "Michael Schumacher",
+                        "prefix": ":flag_de:",
+                        "team": "Ferrari"
+                    }
+                }
+            },
+            "sessions": []
+        },
+        {
+            "name": "Azerbaijan Grand Prix",
+            "year": 2023,
+            "type": "reg",
+            "prefix": ":flag_az:",
+            "start": "2023-04-28T00:00:00Z",
+            "racetrack": {
+                "name": "Baku City Circuit",
+                "length": {
+                    "value": 6003,
+                    "unit": "meters"
+                },
+                "record": {
+                    "time": {
+                        "value": 103009,
+                        "unit": "milliseconds"
+                    },
+                    "year": 2019,
+                    "driver": {
+                        "name": "Charles Leclerc",
+                        "prefix": ":flag_mc:",
+                        "team": "Ferrari"
+                    }
+                }
+            },
+            "sessions": []
+        },
+        {
+            "name": "Miami Grand Prix",
+            "year": 2023,
+            "type": "reg",
+            "prefix": ":flag_us:",
+            "start": "2023-05-05T00:00:00Z",
+            "racetrack": {
+                "name": "Miami International Autodrome",
+                "length": {
+                    "value": 5412,
+                    "unit": "meters"
+                },
+                "record": {
+                    "time": {
+                        "value": 91361,
+                        "unit": "milliseconds"
+                    },
+                    "year": 2022,
+                    "driver": {
+                        "name": "Max Verstappen",
+                        "prefix": ":flag_nl:",
+                        "team": "Red Bull"
+                    }
+                }
+            },
+            "sessions": []
+        },
+        {
+            "name": "Emilia Romagna Grand Prix",
+            "year": 2023,
+            "type": "reg",
+            "prefix": ":flag_it:",
+            "start": "2023-05-19T00:00:00Z",
+            "racetrack": {
+                "name": "Miami International Autodrome",
+                "length": {
+                    "value": 4909,
+                    "unit": "meters"
+                },
+                "record": {
+                    "time": {
+                        "value": 75484,
+                        "unit": "milliseconds"
+                    },
+                    "year": 2020,
+                    "driver": {
+                        "name": "Lewis Hamilton",
+                        "prefix": ":flag_gb:",
+                        "team": "Mercedes"
+                    }
+                }
+            },
+            "sessions": []
+        },
+        {
+            "name": "Monaco Grand Prix",
+            "year": 2023,
+            "type": "reg",
+            "prefix": ":flag_mc:",
+            "start": "2023-05-26T00:00:00Z",
+            "racetrack": {
+                "name": "Circuit de Monaco",
+                "length": {
+                    "value": 3337,
+                    "unit": "meters"
+                },
+                "record": {
+                    "time": {
+                        "value": 72909,
+                        "unit": "milliseconds"
+                    },
+                    "year": 2021,
+                    "driver": {
+                        "name": "Lewis Hamilton",
+                        "prefix": ":flag_gb:",
+                        "team": "Mercedes"
+                    }
+                }
+            },
+            "sessions": []
+        },
+        {
+            "name": "Spanish Grand Prix",
+            "year": 2023,
+            "type": "reg",
+            "prefix": ":flag_es:",
+            "start": "2023-06-02T00:00:00Z",
+            "racetrack": {
+                "name": "Circuit de Barcelona-Catalunya",
+                "length": {
+                    "value": 4675,
+                    "unit": "meters"
+                },
+                "record": {
+                    "time": {
+                        "value": 78149,
+                        "unit": "milliseconds"
+                    },
+                    "year": 2021,
+                    "driver": {
+                        "name": "Max Verstappen",
+                        "prefix": ":flag_nl:",
+                        "team": "Red Bull"
+                    }
+                }
+            },
+            "sessions": []
+        },
+        {
+            "name": "Canadian Grand Prix",
+            "year": 2023,
+            "type": "reg",
+            "prefix": ":flag_ca:",
+            "start": "2023-06-16T00:00:00Z",
+            "racetrack": {
+                "name": "Circuit Gilles-Villeneuve",
+                "length": {
+                    "value": 4361,
+                    "unit": "meters"
+                },
+                "record": {
+                    "time": {
+                        "value": 73078,
+                        "unit": "milliseconds"
+                    },
+                    "year": 2019,
+                    "driver": {
+                        "name": "Valtteri Bottas",
+                        "prefix": ":flag_fi:",
+                        "team": "Mercedes"
+                    }
+                }
+            },
+            "sessions": []
+        },
+        {
+            "name": "Austrian Grand Prix",
+            "year": 2023,
+            "type": "reg",
+            "prefix": ":flag_at:",
+            "start": "2023-06-30T00:00:00Z",
+            "racetrack": {
+                "name": "Red Bull Ring",
+                "length": {
+                    "value": 4318,
+                    "unit": "meters"
+                },
+                "record": {
+                    "time": {
+                        "value": 65619,
+                        "unit": "milliseconds"
+                    },
+                    "year": 2020,
+                    "driver": {
+                        "name": "Carlos Sainz",
+                        "prefix": ":flag_es:",
+                        "team": "McLaren"
+                    }
+                }
+            },
+            "sessions": []
+        },
+        {
+            "name": "Great Britain Grand Prix",
+            "year": 2023,
+            "type": "reg",
+            "prefix": ":flag_gb:",
+            "start": "2023-07-07T00:00:00Z",
+            "racetrack": {
+                "name": "Silverstone Circuit",
+                "length": {
+                    "value": 5891,
+                    "unit": "meters"
+                },
+                "record": {
+                    "time": {
+                        "value": 87097,
+                        "unit": "milliseconds"
+                    },
+                    "year": 2020,
+                    "driver": {
+                        "name": "Max Verstappen",
+                        "prefix": ":flag_nl:",
+                        "team": "Red Bull"
+                    }
+                }
+            },
+            "sessions": []
+        },
+        {
+            "name": "Hungarian Grand Prix",
+            "year": 2023,
+            "type": "reg",
+            "prefix": ":flag_hu:",
+            "start": "2023-07-21T00:00:00Z",
+            "racetrack": {
+                "name": "Hungaroring",
+                "length": {
+                    "value": 4381,
+                    "unit": "meters"
+                },
+                "record": {
+                    "time": {
+                        "value": 76627,
+                        "unit": "milliseconds"
+                    },
+                    "year": 2020,
+                    "driver": {
+                        "name": "Lewis Hamilton",
+                        "prefix": ":flag_gb:",
+                        "team": "Mercedes"
+                    }
+                }
+            },
+            "sessions": []
+        },
+        {
+            "name": "Belgian Grand Prix",
+            "year": 2023,
+            "type": "reg",
+            "prefix": ":flag_be:",
+            "start": "2023-07-28T00:00:00Z",
+            "racetrack": {
+                "name": "Circuit de Spa-Francorchamps",
+                "length": {
+                    "value": 7004,
+                    "unit": "meters"
+                },
+                "record": {
+                    "time": {
+                        "value": 106286,
+                        "unit": "milliseconds"
+                    },
+                    "year": 2018,
+                    "driver": {
+                        "name": "Valtteri Bottas",
+                        "prefix": ":flag_fi:",
+                        "team": "Mercedes"
+                    }
+                }
+            },
+            "sessions": []
+        },
+        {
+            "name": "Dutch Grand Prix",
+            "year": 2023,
+            "type": "reg",
+            "prefix": ":flag_nl:",
+            "start": "2023-08-25T00:00:00Z",
+            "racetrack": {
+                "name": "Circuit Zandvoort",
+                "length": {
+                    "value": 4259,
+                    "unit": "meters"
+                },
+                "record": {
+                    "time": {
+                        "value": 71097,
+                        "unit": "milliseconds"
+                    },
+                    "year": 2021,
+                    "driver": {
+                        "name": "Lewis Hamilton",
+                        "prefix": ":flag_gb:",
+                        "team": "Mercedes"
+                    }
+                }
+            },
+            "sessions": []
+        },
+        {
+            "name": "Italian Grand Prix",
+            "year": 2023,
+            "type": "reg",
+            "prefix": ":flag_it:",
+            "start": "2023-09-01T00:00:00Z",
+            "racetrack": {
+                "name": "Autodromo Nazionale Monza",
+                "length": {
+                    "value": 5793,
+                    "unit": "meters"
+                },
+                "record": {
+                    "time": {
+                        "value": 81049,
+                        "unit": "milliseconds"
+                    },
+                    "year": 2004,
+                    "driver": {
+                        "name": "Rubens Barrichello",
+                        "prefix": ":flag_br:",
+                        "team": "Ferrari"
+                    }
+                }
+            },
+            "sessions": []
+        },
+        {
+            "name": "Singapore Grand Prix",
+            "year": 2023,
+            "type": "reg",
+            "prefix": ":flag_sg:",
+            "start": "2023-09-15T00:00:00Z",
+            "racetrack": {
+                "name": "Marina Bay Street Circuit",
+                "length": {
+                    "value": 5063,
+                    "unit": "meters"
+                },
+                "record": {
+                    "time": {
+                        "value": 101905,
+                        "unit": "milliseconds"
+                    },
+                    "year": 2018,
+                    "driver": {
+                        "name": "Keving Magnussen",
+                        "prefix": ":flag_dk:",
+                        "team": "Haas"
+                    }
+                }
+            },
+            "sessions": []
+        },
+        {
+            "name": "Japanese Grand Prix",
+            "year": 2023,
+            "type": "reg",
+            "prefix": ":flag_jp:",
+            "start": "2023-09-22T00:00:00Z",
+            "racetrack": {
+                "name": "Suzuka International Racing Course",
+                "length": {
+                    "value": 5807,
+                    "unit": "meters"
+                },
+                "record": {
+                    "time": {
+                        "value": 90983,
+                        "unit": "milliseconds"
+                    },
+                    "year": 2019,
+                    "driver": {
+                        "name": "Lewis Hamilton",
+                        "prefix": ":flag_gb:",
+                        "team": "Mercedes"
+                    }
+                }
+            },
+            "sessions": []
+        },
+        {
+            "name": "Qatar Grand Prix",
+            "year": 2023,
+            "type": "reg",
+            "prefix": ":flag_qa:",
+            "start": "2023-10-06T00:00:00Z",
+            "racetrack": {
+                "name": "Losail International Circuit",
+                "length": {
+                    "value": 5380,
+                    "unit": "meters"
+                },
+                "record": {
+                    "time": {
+                        "value": 83196,
+                        "unit": "milliseconds"
+                    },
+                    "year": 2021,
+                    "driver": {
+                        "name": "Max Verstappen",
+                        "prefix": ":flag_nl:",
+                        "team": "Red Bull"
+                    }
+                }
+            },
+            "sessions": []
+        },
+        {
+            "name": "United States Grand Prix",
+            "year": 2023,
+            "type": "reg",
+            "prefix": ":flag_us:",
+            "start": "2023-10-20T00:00:00Z",
+            "racetrack": {
+                "name": "Circuit of The Americas",
+                "length": {
+                    "value": 5513,
+                    "unit": "meters"
+                },
+                "record": {
+                    "time": {
+                        "value": 96169,
+                        "unit": "milliseconds"
+                    },
+                    "year": 2019,
+                    "driver": {
+                        "name": "Charles Leclerc",
+                        "prefix": ":flag_mc:",
+                        "team": "Ferrari"
+                    }
+                }
+            },
+            "sessions": []
+        },
+        {
+            "name": "Mexican Grand Prix",
+            "year": 2023,
+            "type": "reg",
+            "prefix": ":flag_mx:",
+            "start": "2023-10-27T00:00:00Z",
+            "racetrack": {
+                "name": "Autódromo Hermanos Rodríguez",
+                "length": {
+                    "value": 4304,
+                    "unit": "meters"
+                },
+                "record": {
+                    "time": {
+                        "value": 77774,
+                        "unit": "milliseconds"
+                    },
+                    "year": 2021,
+                    "driver": {
+                        "name": "Valtteri Bottas",
+                        "prefix": ":flag_fi:",
+                        "team": "Mercedes"
+                    }
+                }
+            },
+            "sessions": []
+        },
+        {
+            "name": "São Paulo Grand Prix",
+            "year": 2023,
+            "type": "reg",
+            "prefix": ":flag_br:",
+            "start": "2023-11-03T00:00:00Z",
+            "racetrack": {
+                "name": "Autódromo José Carlos Pace",
+                "length": {
+                    "value": 4309,
+                    "unit": "meters"
+                },
+                "record": {
+                    "time": {
+                        "value": 70540,
+                        "unit": "milliseconds"
+                    },
+                    "year": 2018,
+                    "driver": {
+                        "name": "Valtteri Bottas",
+                        "prefix": ":flag_fi:",
+                        "team": "Mercedes"
+                    }
+                }
+            },
+            "sessions": []
+        },
+        {
+            "name": "Las Vegas Grand Prix",
+            "year": 2023,
+            "type": "reg",
+            "prefix": ":flag_us:",
+            "start": "2023-11-16T00:00:00Z",
+            "racetrack": {
+                "name": "Las Vegas Street Circuit",
+                "length": {
+                    "value": 6116,
+                    "unit": "meters"
+                }
+            },
+            "sessions": []
+        },
+        {
+            "name": "Abu Dhabi Grand Prix",
+            "year": 2023,
+            "type": "reg",
+            "prefix": ":flag_ae:",
+            "start": "2023-11-24T00:00:00Z",
+            "racetrack": {
+                "name": "Yas Marina Circuit",
+                "length": {
+                    "value": 5281,
+                    "unit": "meters"
+                },
+                "record": {
+                    "time": {
+                        "value": 86103,
+                        "unit": "milliseconds"
+                    },
+                    "year": 2021,
+                    "driver": {
+                        "name": "Max Verstappen",
+                        "prefix": ":flag_nl:",
+                        "team": "Red Bull"
+                    }
+                }
+            },
+            "sessions": []
+        }
+    ]
+}

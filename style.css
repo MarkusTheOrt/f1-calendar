@@ -1,0 +1,19 @@
+body {
+  transition: ease all 0.3s;
+  font-family: sans-serif, serif;
+}
+
+a {
+  user-select: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background: #1f1f1f;
+    color: white;
+  }
+
+  a {
+    color: #dee2ff;
+  }
+}
