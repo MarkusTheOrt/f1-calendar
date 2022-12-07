@@ -25,7 +25,7 @@
                     "value": 5412,
                     "unit": "meters"
                 },
-                "record": {
+                "recordTime": {
                     "time": {
                         "value": 91447,
                         "unit": "milliseconds"
@@ -52,7 +52,7 @@
                     "value": 5412,
                     "unit": "meters"
                 },
-                "record": {
+                "recordTime": {
                     "time": {
                         "value": 91447,
                         "unit": "milliseconds"
@@ -65,7 +65,38 @@
                     }
                 }
             },
-            "sessions": []
+            "sessions": [
+                {
+                    "type": "fp",
+                    "name": "`FP1:       `",
+                    "start": "2023-03-03T11:30:00Z",
+                    "duration": 3600
+                },
+                {
+                    "type": "fp",
+                    "name": "`FP2:       `",
+                    "start": "2023-03-03T15:00:00Z",
+                    "duration": 3600
+                },
+                {
+                    "type": "fp",
+                    "name": "`FP2:       `",
+                    "start": "2023-03-04T11:30:00Z",
+                    "duration": 3600
+                },
+                {
+                    "type": "qp",
+                    "name": "`Qualifying:`",
+                    "start": "2023-03-04T15:00:00Z",
+                    "duration": 3600
+                },
+                {
+                    "type": "ra",
+                    "name": "`Race:      `",
+                    "start": "2023-03-05T15:00:00Z",
+                    "duration": 7200
+                }
+            ]
         },
         {
             "name": "Saudi Arabian Grand Prix",
@@ -79,7 +110,7 @@
                     "value": 6174,
                     "unit": "meters"
                 },
-                "record": {
+                "recordTime": {
                     "time": {
                         "value": 90734,
                         "unit": "milliseconds"
@@ -92,7 +123,38 @@
                     }
                 }
             },
-            "sessions": []
+            "sessions": [
+                {
+                    "type": "fp",
+                    "name": "`FP1:       `",
+                    "start": "2023-03-17T13:30:00Z",
+                    "duration": 3600
+                },
+                {
+                    "type": "fp",
+                    "name": "`FP2:       `",
+                    "start": "2023-03-17T17:00:00Z",
+                    "duration": 3600
+                },
+                {
+                    "type": "fp",
+                    "name": "`FP2:       `",
+                    "start": "2023-03-18T13:30:00Z",
+                    "duration": 3600
+                },
+                {
+                    "type": "qp",
+                    "name": "`Qualifying:`",
+                    "start": "2023-03-18T17:00:00Z",
+                    "duration": 3600
+                },
+                {
+                    "type": "ra",
+                    "name": "`Race:      `",
+                    "start": "2023-03-19T17:00:00Z",
+                    "duration": 7200
+                }
+            ]
         },
         {
             "name": "Australian Grand Prix",
@@ -106,7 +168,7 @@
                     "value": 5278,
                     "unit": "meters"
                 },
-                "record": {
+                "recordTime": {
                     "time": {
                         "value": 80260,
                         "unit": "milliseconds"
@@ -119,39 +181,43 @@
                     }
                 }
             },
-            "sessions": []
-        },
-        {
-            "name": "Chinese Grand Prix",
-            "year": 2023,
-            "type": "reg",
-            "prefix": ":flag_cn:",
-            "start": "2023-04-14T00:00:00Z",
-            "racetrack": {
-                "name": "Shanghai International Circuit",
-                "length": {
-                    "value": 5451,
-                    "unit": "meters"
+            "sessions": [
+                {
+                    "type": "fp",
+                    "name": "`FP1:       `",
+                    "start": "2023-03-31T01:30:00Z",
+                    "duration": 3600
                 },
-                "record": {
-                    "time": {
-                        "value": 92238,
-                        "unit": "milliseconds"
-                    },
-                    "year": 2004,
-                    "driver": {
-                        "name": "Michael Schumacher",
-                        "prefix": ":flag_de:",
-                        "team": "Ferrari"
-                    }
+                {
+                    "type": "fp",
+                    "name": "`FP2:       `",
+                    "start": "2023-03-31T05:00:00Z",
+                    "duration": 3600
+                },
+                {
+                    "type": "fp",
+                    "name": "`FP3:       `",
+                    "start": "2023-04-01T01:30:00Z",
+                    "duration": 3600
+                },
+                {
+                    "type": "qp",
+                    "name": "`Qualifying:`",
+                    "start": "2023-04-01T05:00:00Z",
+                    "duration": 3600
+                },
+                {
+                    "type": "ra",
+                    "name": "`Race:      `",
+                    "start": "2023-04-02T05:00:00Z",
+                    "duration": 7200
                 }
-            },
-            "sessions": []
+            ]
         },
         {
             "name": "Azerbaijan Grand Prix",
             "year": 2023,
-            "type": "reg",
+            "type": "spr",
             "prefix": ":flag_az:",
             "start": "2023-04-28T00:00:00Z",
             "racetrack": {
@@ -160,7 +226,7 @@
                     "value": 6003,
                     "unit": "meters"
                 },
-                "record": {
+                "recordTime": {
                     "time": {
                         "value": 103009,
                         "unit": "milliseconds"
@@ -173,7 +239,38 @@
                     }
                 }
             },
-            "sessions": []
+            "sessions": [
+                {
+                    "type": "fp",
+                    "name": "`FP1:              `",
+                    "start": "2023-04-28T09:30:00Z",
+                    "duration": 3600
+                },
+                {
+                    "type": "qp",
+                    "name": "`Sprint Qualifying:`",
+                    "start": "2023-04-28T13:00:00Z",
+                    "duration": 3600
+                },
+                {
+                    "type": "fp",
+                    "name": "`FP2:              `",
+                    "start": "2023-04-29T09:30:00Z",
+                    "duration": 3600
+                },
+                {
+                    "type": "sr",
+                    "name": "`Sprint Race       `",
+                    "start": "2023-04-29T13:30:00Z",
+                    "duration": 3600
+                },
+                {
+                    "type": "ra",
+                    "name": "`Race              `",
+                    "start": "2023-04-30T11:00:00Z",
+                    "duration": 7200
+                }
+            ]
         },
         {
             "name": "Miami Grand Prix",
@@ -187,7 +284,7 @@
                     "value": 5412,
                     "unit": "meters"
                 },
-                "record": {
+                "recordTime": {
                     "time": {
                         "value": 91361,
                         "unit": "milliseconds"
@@ -200,7 +297,38 @@
                     }
                 }
             },
-            "sessions": []
+            "sessions": [
+                {
+                    "type": "fp",
+                    "name": "`FP1:       `",
+                    "start": "2023-05-05T17:30:00Z",
+                    "duration": 3600
+                },
+                {
+                    "type": "fp",
+                    "name": "`FP2:       `",
+                    "start": "2023-05-05T21:00:00Z",
+                    "duration": 3600
+                },
+                {
+                    "type": "fp",
+                    "name": "`FP3:       `",
+                    "start": "2023-05-06T16:30:00Z",
+                    "duration": 3600
+                },
+                {
+                    "type": "qp",
+                    "name": "`Qualifying:`",
+                    "start": "2023-05-06T20:00:00Z",
+                    "duration": 3600
+                },
+                {
+                    "type": "ra",
+                    "name": "`Race:      `",
+                    "start": "2023-05-06T19:30:00Z",
+                    "duration": 7200
+                }
+            ]
         },
         {
             "name": "Emilia Romagna Grand Prix",
@@ -209,12 +337,12 @@
             "prefix": ":flag_it:",
             "start": "2023-05-19T00:00:00Z",
             "racetrack": {
-                "name": "Miami International Autodrome",
+                "name": "Autodromo Internazionale Enzo e Dino Ferrari",
                 "length": {
                     "value": 4909,
                     "unit": "meters"
                 },
-                "record": {
+                "recordTime": {
                     "time": {
                         "value": 75484,
                         "unit": "milliseconds"
@@ -227,7 +355,38 @@
                     }
                 }
             },
-            "sessions": []
+            "sessions": [
+                {
+                    "type": "fp",
+                    "name": "`FP1:       `",
+                    "start": "2023-05-19T11:30:00Z",
+                    "duration": 3600
+                },
+                {
+                    "type": "fp",
+                    "name": "`FP2:       `",
+                    "start": "2023-05-19T15:00:00Z",
+                    "duration": 3600
+                },
+                {
+                    "type": "fp",
+                    "name": "`FP3:       `",
+                    "start": "2023-05-20T10:30:00Z",
+                    "duration": 3600
+                },
+                {
+                    "type": "qp",
+                    "name": "`Qualifying:`",
+                    "start": "2023-05-20T14:00:00Z",
+                    "duration": 3600
+                },
+                {
+                    "type": "ra",
+                    "name": "`Race:      `",
+                    "start": "2023-05-21T13:00:00Z",
+                    "duration": 7200
+                }
+            ]
         },
         {
             "name": "Monaco Grand Prix",
@@ -241,7 +400,7 @@
                     "value": 3337,
                     "unit": "meters"
                 },
-                "record": {
+                "recordTime": {
                     "time": {
                         "value": 72909,
                         "unit": "milliseconds"
@@ -254,7 +413,38 @@
                     }
                 }
             },
-            "sessions": []
+            "sessions": [
+                {
+                    "type": "fp",
+                    "name": "`FP1:       `",
+                    "start": "2023-05-26T11:30:00Z",
+                    "duration": 3600
+                },
+                {
+                    "type": "fp",
+                    "name": "`FP2:       `",
+                    "start": "2023-05-26T15:00:00Z",
+                    "duration": 3600
+                },
+                {
+                    "type": "fp",
+                    "name": "`FP3:       `",
+                    "start": "2023-05-27T10:30:00Z",
+                    "duration": 3600
+                },
+                {
+                    "type": "qp",
+                    "name": "`Qualifying:`",
+                    "start": "2023-05-27T14:00:00Z",
+                    "duration": 3600
+                },
+                {
+                    "type": "ra",
+                    "name": "`Race:      `",
+                    "start": "2023-05-28T13:00:00Z",
+                    "duration": 7200
+                }
+            ]
         },
         {
             "name": "Spanish Grand Prix",
@@ -268,7 +458,7 @@
                     "value": 4675,
                     "unit": "meters"
                 },
-                "record": {
+                "recordTime": {
                     "time": {
                         "value": 78149,
                         "unit": "milliseconds"
@@ -281,7 +471,38 @@
                     }
                 }
             },
-            "sessions": []
+            "sessions": [
+                {
+                    "type": "fp",
+                    "name": "`FP1:       `",
+                    "start": "2023-06-02T11:30:00Z",
+                    "duration": 3600
+                },
+                {
+                    "type": "fp",
+                    "name": "`FP2:       `",
+                    "start": "2023-06-02T15:00:00Z",
+                    "duration": 3600
+                },
+                {
+                    "type": "fp",
+                    "name": "`FP3:       `",
+                    "start": "2023-06-03T10:30:00Z",
+                    "duration": 3600
+                },
+                {
+                    "type": "qp",
+                    "name": "`Qualifying:`",
+                    "start": "2023-06-03T14:00:00Z",
+                    "duration": 3600
+                },
+                {
+                    "type": "ra",
+                    "name": "`Race:      `",
+                    "start": "2023-06-04T13:00:00Z",
+                    "duration": 7200
+                }
+            ]
         },
         {
             "name": "Canadian Grand Prix",
@@ -295,7 +516,7 @@
                     "value": 4361,
                     "unit": "meters"
                 },
-                "record": {
+                "recordTime": {
                     "time": {
                         "value": 73078,
                         "unit": "milliseconds"
@@ -308,12 +529,43 @@
                     }
                 }
             },
-            "sessions": []
+            "sessions": [
+                {
+                    "type": "fp",
+                    "name": "`FP1:       `",
+                    "start": "2023-06-16T17:30:00Z",
+                    "duration": 3600
+                },
+                {
+                    "type": "fp",
+                    "name": "`FP2:       `",
+                    "start": "2023-06-16T21:00:00Z",
+                    "duration": 3600
+                },
+                {
+                    "type": "fp",
+                    "name": "`FP3:       `",
+                    "start": "2023-06-17T16:30:00Z",
+                    "duration": 3600
+                },
+                {
+                    "type": "qp",
+                    "name": "`Qualifying:`",
+                    "start": "2023-06-17T20:00:00Z",
+                    "duration": 3600
+                },
+                {
+                    "type": "ra",
+                    "name": "`Race:      `",
+                    "start": "2023-06-18T18:00:00Z",
+                    "duration": 7200
+                }
+            ]
         },
         {
             "name": "Austrian Grand Prix",
             "year": 2023,
-            "type": "reg",
+            "type": "spr",
             "prefix": ":flag_at:",
             "start": "2023-06-30T00:00:00Z",
             "racetrack": {
@@ -322,7 +574,7 @@
                     "value": 4318,
                     "unit": "meters"
                 },
-                "record": {
+                "recordTime": {
                     "time": {
                         "value": 65619,
                         "unit": "milliseconds"
@@ -335,7 +587,38 @@
                     }
                 }
             },
-            "sessions": []
+            "sessions": [
+                {
+                    "type": "fp",
+                    "name": "`FP1:              `",
+                    "start": "2023-06-30T11:30:00Z",
+                    "duration": 3600
+                },
+                {
+                    "type": "qp",
+                    "name": "`Sprint Qualifying:`",
+                    "start": "2023-06-30T15:00:00Z",
+                    "duration": 3600
+                },
+                {
+                    "type": "fp",
+                    "name": "`FP2:              `",
+                    "start": "2023-07-01T10:30:00Z",
+                    "duration": 3600
+                },
+                {
+                    "type": "sr",
+                    "name": "`Sprint Race       `",
+                    "start": "2023-07-01T14:30:00Z",
+                    "duration": 3600
+                },
+                {
+                    "type": "ra",
+                    "name": "`Race              `",
+                    "start": "2023-07-02T13:00:00Z",
+                    "duration": 7200
+                }
+            ]
         },
         {
             "name": "Great Britain Grand Prix",
@@ -349,7 +632,7 @@
                     "value": 5891,
                     "unit": "meters"
                 },
-                "record": {
+                "recordTime": {
                     "time": {
                         "value": 87097,
                         "unit": "milliseconds"
@@ -376,7 +659,7 @@
                     "value": 4381,
                     "unit": "meters"
                 },
-                "record": {
+                "recordTime": {
                     "time": {
                         "value": 76627,
                         "unit": "milliseconds"
@@ -403,7 +686,7 @@
                     "value": 7004,
                     "unit": "meters"
                 },
-                "record": {
+                "recordTime": {
                     "time": {
                         "value": 106286,
                         "unit": "milliseconds"
@@ -430,7 +713,7 @@
                     "value": 4259,
                     "unit": "meters"
                 },
-                "record": {
+                "recordTime": {
                     "time": {
                         "value": 71097,
                         "unit": "milliseconds"
@@ -457,7 +740,7 @@
                     "value": 5793,
                     "unit": "meters"
                 },
-                "record": {
+                "recordTime": {
                     "time": {
                         "value": 81049,
                         "unit": "milliseconds"
@@ -484,7 +767,7 @@
                     "value": 5063,
                     "unit": "meters"
                 },
-                "record": {
+                "recordTime": {
                     "time": {
                         "value": 101905,
                         "unit": "milliseconds"
@@ -511,7 +794,7 @@
                     "value": 5807,
                     "unit": "meters"
                 },
-                "record": {
+                "recordTime": {
                     "time": {
                         "value": 90983,
                         "unit": "milliseconds"
@@ -538,7 +821,7 @@
                     "value": 5380,
                     "unit": "meters"
                 },
-                "record": {
+                "recordTime": {
                     "time": {
                         "value": 83196,
                         "unit": "milliseconds"
@@ -565,7 +848,7 @@
                     "value": 5513,
                     "unit": "meters"
                 },
-                "record": {
+                "recordTime": {
                     "time": {
                         "value": 96169,
                         "unit": "milliseconds"
@@ -592,7 +875,7 @@
                     "value": 4304,
                     "unit": "meters"
                 },
-                "record": {
+                "recordTime": {
                     "time": {
                         "value": 77774,
                         "unit": "milliseconds"
@@ -619,7 +902,7 @@
                     "value": 4309,
                     "unit": "meters"
                 },
-                "record": {
+                "recordTime": {
                     "time": {
                         "value": 70540,
                         "unit": "milliseconds"
@@ -661,7 +944,7 @@
                     "value": 5281,
                     "unit": "meters"
                 },
-                "record": {
+                "recordTime": {
                     "time": {
                         "value": 86103,
                         "unit": "milliseconds"
