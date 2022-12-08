@@ -645,34 +645,38 @@
                     }
                 }
             },
-            "sessions": []
-        },
-        {
-            "name": "Hungarian Grand Prix",
-            "year": 2023,
-            "type": "reg",
-            "prefix": ":flag_hu:",
-            "start": "2023-07-21T00:00:00Z",
-            "racetrack": {
-                "name": "Hungaroring",
-                "length": {
-                    "value": 4381,
-                    "unit": "meters"
+            "sessions": [
+                {
+                    "type": "fp",
+                    "name": "`FP1:       `",
+                    "start": "2023-07-07T11:30:00Z",
+                    "duration": 3600
                 },
-                "recordTime": {
-                    "time": {
-                        "value": 76627,
-                        "unit": "milliseconds"
-                    },
-                    "year": 2020,
-                    "driver": {
-                        "name": "Lewis Hamilton",
-                        "prefix": ":flag_gb:",
-                        "team": "Mercedes"
-                    }
+                {
+                    "type": "fp",
+                    "name": "`FP2:       `",
+                    "start": "2023-07-07T15:00:00Z",
+                    "duration": 3600
+                },
+                {
+                    "type": "fp",
+                    "name": "`FP3:       `",
+                    "start": "2023-07-08T10:30:00Z",
+                    "duration": 3600
+                },
+                {
+                    "type": "qp",
+                    "name": "`Qualifying:`",
+                    "start": "2023-07-08T14:00:00Z",
+                    "duration": 3600
+                },
+                {
+                    "type": "ra",
+                    "name": "`Race:      `",
+                    "start": "2023-07-09T14:00:00Z",
+                    "duration": 7200
                 }
-            },
-            "sessions": []
+            ]
         },
         {
             "name": "Belgian Grand Prix",
@@ -699,7 +703,96 @@
                     }
                 }
             },
-            "sessions": []
+            "sessions": [
+                {
+                    "type": "fp",
+                    "name": "`FP1:              `",
+                    "start": "2023-07-21T11:30:00Z",
+                    "duration": 3600
+                },
+                {
+                    "type": "qp",
+                    "name": "`Sprint Qualifying:`",
+                    "start": "2023-07-21T15:00:00Z",
+                    "duration": 3600
+                },
+                {
+                    "type": "fp",
+                    "name": "`FP2:              `",
+                    "start": "2023-07-22T10:30:00Z",
+                    "duration": 3600
+                },
+                {
+                    "type": "sr",
+                    "name": "`Sprint Race       `",
+                    "start": "2023-07-22T14:30:00Z",
+                    "duration": 3600
+                },
+                {
+                    "type": "ra",
+                    "name": "`Race              `",
+                    "start": "2023-07-23T13:00:00Z",
+                    "duration": 7200
+                }
+            ]
+        },
+        {
+            "name": "Hungarian Grand Prix",
+            "year": 2023,
+            "type": "reg",
+            "prefix": ":flag_hu:",
+            "start": "2023-07-21T00:00:00Z",
+            "racetrack": {
+                "name": "Hungaroring",
+                "length": {
+                    "value": 4381,
+                    "unit": "meters"
+                },
+                "recordTime": {
+                    "time": {
+                        "value": 76627,
+                        "unit": "milliseconds"
+                    },
+                    "year": 2020,
+                    "driver": {
+                        "name": "Lewis Hamilton",
+                        "prefix": ":flag_gb:",
+                        "team": "Mercedes"
+                    }
+                }
+            },
+            "sessions": [
+                {
+                    "type": "fp",
+                    "name": "`FP1:       `",
+                    "start": "2023-07-28T11:30:00Z",
+                    "duration": 3600
+                },
+                {
+                    "type": "fp",
+                    "name": "`FP2:       `",
+                    "start": "2023-07-28T15:00:00Z",
+                    "duration": 3600
+                },
+                {
+                    "type": "fp",
+                    "name": "`FP3:       `",
+                    "start": "2023-07-29T10:30:00Z",
+                    "duration": 3600
+                },
+                {
+                    "type": "qp",
+                    "name": "`Qualifying:`",
+                    "start": "2023-07-29T14:00:00Z",
+                    "duration": 3600
+                },
+                {
+                    "type": "ra",
+                    "name": "`Race:      `",
+                    "start": "2023-07-30T13:00:00Z",
+                    "duration": 7200
+                }
+            ]
         },
         {
             "name": "Dutch Grand Prix",
@@ -726,7 +819,38 @@
                     }
                 }
             },
-            "sessions": []
+            "sessions": [
+                {
+                    "type": "fp",
+                    "name": "`FP1:       `",
+                    "start": "2023-08-25T10:30:00Z",
+                    "duration": 3600
+                },
+                {
+                    "type": "fp",
+                    "name": "`FP2:       `",
+                    "start": "2023-08-25T14:00:00Z",
+                    "duration": 3600
+                },
+                {
+                    "type": "fp",
+                    "name": "`FP3:       `",
+                    "start": "2023-08-26T09:30:00Z",
+                    "duration": 3600
+                },
+                {
+                    "type": "qp",
+                    "name": "`Qualifying:`",
+                    "start": "2023-08-26T13:00:00Z",
+                    "duration": 3600
+                },
+                {
+                    "type": "ra",
+                    "name": "`Race:      `",
+                    "start": "2023-08-27T13:00:00Z",
+                    "duration": 7200
+                }
+            ]
         },
         {
             "name": "Italian Grand Prix",
@@ -753,7 +877,38 @@
                     }
                 }
             },
-            "sessions": []
+            "sessions": [
+                {
+                    "type": "fp",
+                    "name": "`FP1:       `",
+                    "start": "2023-09-01T11:30:00Z",
+                    "duration": 3600
+                },
+                {
+                    "type": "fp",
+                    "name": "`FP2:       `",
+                    "start": "2023-09-01T15:00:00Z",
+                    "duration": 3600
+                },
+                {
+                    "type": "fp",
+                    "name": "`FP3:       `",
+                    "start": "2023-09-02T10:30:00Z",
+                    "duration": 3600
+                },
+                {
+                    "type": "qp",
+                    "name": "`Qualifying:`",
+                    "start": "2023-09-02T14:00:00Z",
+                    "duration": 3600
+                },
+                {
+                    "type": "ra",
+                    "name": "`Race:      `",
+                    "start": "2023-09-03T13:00:00Z",
+                    "duration": 7200
+                }
+            ]
         },
         {
             "name": "Singapore Grand Prix",
@@ -780,7 +935,38 @@
                     }
                 }
             },
-            "sessions": []
+            "sessions": [
+                {
+                    "type": "fp",
+                    "name": "`FP1:       `",
+                    "start": "2023-09-15T09:30:00Z",
+                    "duration": 3600
+                },
+                {
+                    "type": "fp",
+                    "name": "`FP2:       `",
+                    "start": "2023-09-15T13:00:00Z",
+                    "duration": 3600
+                },
+                {
+                    "type": "fp",
+                    "name": "`FP3:       `",
+                    "start": "2023-09-16T09:30:00Z",
+                    "duration": 3600
+                },
+                {
+                    "type": "qp",
+                    "name": "`Qualifying:`",
+                    "start": "2023-09-16T13:00:00Z",
+                    "duration": 3600
+                },
+                {
+                    "type": "ra",
+                    "name": "`Race:      `",
+                    "start": "2023-09-17T12:00:00Z",
+                    "duration": 7200
+                }
+            ]
         },
         {
             "name": "Japanese Grand Prix",
@@ -807,7 +993,38 @@
                     }
                 }
             },
-            "sessions": []
+            "sessions": [
+                {
+                    "type": "fp",
+                    "name": "`FP1:       `",
+                    "start": "2023-09-22T02:30:00Z",
+                    "duration": 3600
+                },
+                {
+                    "type": "fp",
+                    "name": "`FP2:       `",
+                    "start": "2023-09-22T06:00:00Z",
+                    "duration": 3600
+                },
+                {
+                    "type": "fp",
+                    "name": "`FP3:       `",
+                    "start": "2023-09-23T02:30:00Z",
+                    "duration": 3600
+                },
+                {
+                    "type": "qp",
+                    "name": "`Qualifying:`",
+                    "start": "2023-09-23T06:00:00Z",
+                    "duration": 3600
+                },
+                {
+                    "type": "ra",
+                    "name": "`Race:      `",
+                    "start": "2023-09-24T05:00:00Z",
+                    "duration": 7200
+                }
+            ]
         },
         {
             "name": "Qatar Grand Prix",
@@ -834,7 +1051,38 @@
                     }
                 }
             },
-            "sessions": []
+            "sessions": [
+                {
+                    "type": "fp",
+                    "name": "`FP1:              `",
+                    "start": "2023-10-06T10:30:00Z",
+                    "duration": 3600
+                },
+                {
+                    "type": "qp",
+                    "name": "`Sprint Qualifying:`",
+                    "start": "2023-10-06T14:00:00Z",
+                    "duration": 3600
+                },
+                {
+                    "type": "fp",
+                    "name": "`FP2:              `",
+                    "start": "2023-10-07T10:30:00Z",
+                    "duration": 3600
+                },
+                {
+                    "type": "sr",
+                    "name": "`Sprint Race       `",
+                    "start": "2023-10-07T14:30:00Z",
+                    "duration": 3600
+                },
+                {
+                    "type": "ra",
+                    "name": "`Race              `",
+                    "start": "2023-10-08T14:00:00Z",
+                    "duration": 7200
+                }
+            ]
         },
         {
             "name": "United States Grand Prix",
@@ -861,7 +1109,38 @@
                     }
                 }
             },
-            "sessions": []
+            "sessions": [
+                {
+                    "type": "fp",
+                    "name": "`FP1:              `",
+                    "start": "2023-10-20T17:30:00Z",
+                    "duration": 3600
+                },
+                {
+                    "type": "qp",
+                    "name": "`Sprint Qualifying:`",
+                    "start": "2023-10-20T21:00:00Z",
+                    "duration": 3600
+                },
+                {
+                    "type": "fp",
+                    "name": "`FP2:              `",
+                    "start": "2023-10-21T18:00:00Z",
+                    "duration": 3600
+                },
+                {
+                    "type": "sr",
+                    "name": "`Sprint Race       `",
+                    "start": "2023-10-21T22:00:00Z",
+                    "duration": 3600
+                },
+                {
+                    "type": "ra",
+                    "name": "`Race              `",
+                    "start": "2023-10-22T19:00:00Z",
+                    "duration": 7200
+                }
+            ]
         },
         {
             "name": "Mexican Grand Prix",
@@ -888,7 +1167,38 @@
                     }
                 }
             },
-            "sessions": []
+            "sessions": [
+                {
+                    "type": "fp",
+                    "name": "`FP1:       `",
+                    "start": "2023-10-27T17:30:00Z",
+                    "duration": 3600
+                },
+                {
+                    "type": "fp",
+                    "name": "`FP2:       `",
+                    "start": "2023-10-27T21:00:00Z",
+                    "duration": 3600
+                },
+                {
+                    "type": "fp",
+                    "name": "`FP3:       `",
+                    "start": "2023-10-28T16:30:00Z",
+                    "duration": 3600
+                },
+                {
+                    "type": "qp",
+                    "name": "`Qualifying:`",
+                    "start": "2023-10-28T20:00:00Z",
+                    "duration": 3600
+                },
+                {
+                    "type": "ra",
+                    "name": "`Race:      `",
+                    "start": "2023-10-29T20:00:00Z",
+                    "duration": 7200
+                }
+            ]
         },
         {
             "name": "São Paulo Grand Prix",
@@ -915,7 +1225,38 @@
                     }
                 }
             },
-            "sessions": []
+            "sessions": [
+                {
+                    "type": "fp",
+                    "name": "`FP1:              `",
+                    "start": "2023-11-03T14:30:00Z",
+                    "duration": 3600
+                },
+                {
+                    "type": "qp",
+                    "name": "`Sprint Qualifying:`",
+                    "start": "2023-11-03T18:00:00Z",
+                    "duration": 3600
+                },
+                {
+                    "type": "fp",
+                    "name": "`FP2:              `",
+                    "start": "2023-11-04T14:30:00Z",
+                    "duration": 3600
+                },
+                {
+                    "type": "sr",
+                    "name": "`Sprint Race       `",
+                    "start": "2023-11-04T18:30:00Z",
+                    "duration": 3600
+                },
+                {
+                    "type": "ra",
+                    "name": "`Race              `",
+                    "start": "2023-11-05T17:00:00Z",
+                    "duration": 7200
+                }
+            ]
         },
         {
             "name": "Las Vegas Grand Prix",
@@ -930,7 +1271,38 @@
                     "unit": "meters"
                 }
             },
-            "sessions": []
+            "sessions": [
+                {
+                    "type": "fp",
+                    "name": "`FP1:       `",
+                    "start": "2023-11-17T02:30:00Z",
+                    "duration": 3600
+                },
+                {
+                    "type": "fp",
+                    "name": "`FP2:       `",
+                    "start": "2023-11-17T06:00:00Z",
+                    "duration": 3600
+                },
+                {
+                    "type": "fp",
+                    "name": "`FP3:       `",
+                    "start": "2023-11-18T02:30:00Z",
+                    "duration": 3600
+                },
+                {
+                    "type": "qp",
+                    "name": "`Qualifying:`",
+                    "start": "2023-11-18T06:00:00Z",
+                    "duration": 3600
+                },
+                {
+                    "type": "ra",
+                    "name": "`Race:      `",
+                    "start": "2023-11-19T06:00:00Z",
+                    "duration": 7200
+                }
+            ]
         },
         {
             "name": "Abu Dhabi Grand Prix",
@@ -957,7 +1329,38 @@
                     }
                 }
             },
-            "sessions": []
+            "sessions": [
+                {
+                    "type": "fp",
+                    "name": "`FP1:       `",
+                    "start": "2023-11-24T09:30:00Z",
+                    "duration": 3600
+                },
+                {
+                    "type": "fp",
+                    "name": "`FP2:       `",
+                    "start": "2023-11-24T13:00:00Z",
+                    "duration": 3600
+                },
+                {
+                    "type": "fp",
+                    "name": "`FP3:       `",
+                    "start": "2023-11-25T10:30:00Z",
+                    "duration": 3600
+                },
+                {
+                    "type": "qp",
+                    "name": "`Qualifying:`",
+                    "start": "2023-11-25T14:00:00Z",
+                    "duration": 3600
+                },
+                {
+                    "type": "ra",
+                    "name": "`Race:      `",
+                    "start": "2023-11-26T13:00:00Z",
+                    "duration": 7200
+                }
+            ]
         }
     ]
 }
