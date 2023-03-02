@@ -24,7 +24,7 @@ const rcdtm = (t) => {
 
 const formatCalendar = (e) => {
   let t =
-    "**Preliminary :f1_logo: 2023 Calendar**\n\n*Source:* <https://f1tv.formula1.com/page/6603/2023-season>\n\n";
+    "**:f1_logo: 2023 Calendar**\n\n*Source:* <https://f1tv.formula1.com/page/6603/2023-season>\n\n";
   for (const weekend of e.events) {
     t += `**${weekend.prefix} ${weekend.name}**\n`;
     let d = new Date(weekend.start).getTime() / 1000;
